@@ -72,18 +72,24 @@ button {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0.5em;
-
-
+	background-image: url(https://github.com/diegoherreraenff/bikes-for-refugees/blob/master/images/header-bike.jpg?raw=true);
+	max-width: 60%;
 }
 
-.new-button:{
-	background-color: red;
-	display: flex;
-	justify-content: space-between;
+.new-button {
+	display: inline;
 	padding: 2em 0em;
 	height: 10em;
 
 }
+.lear-more{
+	display: flex;
+	flex-direction: row;
+}
+.lear-more>article { 
+	border: solid black 1px;
+	
+ }
 
 /* Headings */
 .heading-underline {
