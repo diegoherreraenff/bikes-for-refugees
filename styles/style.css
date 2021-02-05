@@ -15,6 +15,10 @@ button {
 	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
+.buttonmenu{ 
+	background-color: rgb(214, 92, 36);
+ }
+
 /*  Navigation */
 .navbar-brand>img {
 	max-height: 40px;
@@ -84,12 +88,20 @@ button {
 }
 .lear-more{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 .lear-more>article { 
-	border: solid black 1px;
+	max-width: 40%;
 	
  }
+
+ .sidebar.col-lg-4 { 
+	max-width: 40%;
+	position: ;
+ }
+ 
+ 
+  }
 
 /* Headings */
 .heading-underline {
@@ -142,6 +154,8 @@ button {
 .article__read-more:last-child {
 	margin-bottom: 0;
 }
+
+
 
 /* Footer */
 .footer {
