@@ -8,22 +8,22 @@
 
 html,
 body {
-	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 button {
-	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 /*  Navigation */
-.navbar-brand > img {
+.navbar-brand>img {
 	max-height: 40px;
 	width: auto;
 }
 
 .navbar-light .navbar-toggler {
 	border: 0;
-	right:  0;
+	right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -50,7 +50,8 @@ button {
 	font-size: 0.85rem;
 	line-height: 1.3em;
 	background: transparent;
-	color: #292b2c;
+	color: #109be0;
+
 }
 
 .alert:before {
@@ -63,9 +64,25 @@ button {
 	background: #ce5f31;
 }
 
+.row {
+	display: flex;
+	flex-direction: column;
+}
+
 /* Jumbotron */
 .jumbotron {
-	border-radius: 0;
+	border-radius: 0.5em;
+
+
+}
+
+.new-button:{
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 0em;
+	height: 10em;
+
 }
 
 /* Headings */
@@ -135,7 +152,7 @@ button {
 
 @media screen and (min-width: 992px) {
 
-	.navbar-brand > img {
-	   max-height: 80px;
+	.navbar-brand>img {
+		max-height: 80px;
 	}
 }
